@@ -1,0 +1,63 @@
+
+img{
+    width: 100px;
+}
+
+.abroad-pic {
+    width: 400px;
+
+}
+
+.main-pic {
+    background-image: url("../assets/vacbeach.jpeg");
+    background-size: cover;
+    padding: 1rem;
+}
+.title-header{
+    text-align: right;
+    font-family: 'Luckiest Guy';
+        height: 120px;
+
+      } 
+.login-all{
+    text-align: center;
+}
+.img-log{
+    background-image: url("../assets/planes.webp");
+    height: 100%;
+
+}
+.right-nav{
+    text-align: right;
+}
+.Margosquare {
+    background-image: url("../assets/loveugif.gif");
+    right: 50%;
+    left: 20%;
+    width: 50%;
+    height: 2px;
+    padding-top: 35%;
+    position: absolute;
+}
+.Margocontent {
+    position: absolute;
+    padding-top: 40%;
+    left: 30%;
+
+  }
+.Margo-btn{
+    
+    padding-top: 4%;
+    width: 0.05cm;
+    height: 0.1cm;
+
+}
+
+.flights-header{
+    text-align: end;
+
+}
+.not-have{
+    position: relative;
+    left: 250px;
+}

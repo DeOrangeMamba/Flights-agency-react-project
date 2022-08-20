@@ -1,0 +1,71 @@
+.first{
+    background-color:deepskyblue;
+    background-size: cover;
+    display: grid;
+    grid-gap:1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1024px;
+
+}
+.first .card{
+    width: 33%;
+    overflow: hidden;
+    box-shadow: 0 1px 1px ;
+    /* transition: 0.3s; */
+    /* animation: ease-in; */
+    height: 100%;
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+}.image-container{
+    background-image: url("../assets/me.png");
+}
+.center-img{
+    background-image: url("../assets/login.jpeg");
+}
+.right-img{
+    background-image: url("../assets/planec.jpeg");
+}
+.me-btn{
+    /* padding-top: 50%; */
+    right: 50px;;
+}
+.first .card:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 15px 0px;
+
+}
+
+.first .image-container img{
+    overflow: hidden;
+    height: 70px;
+
+}
+.first .card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+.first .card-title{
+    margin-bottom: 0.5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.first .btn button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+.first .a{
+    text-transform: uppercase;
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
